@@ -1,0 +1,53 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.bu, .num, .other{
+    background-color: #505050;
+}
+
+.bu{
+ color: chartreuse;
+}
+
+.num{
+    color: whitesmoke;
+}
+
+.C{
+    background-color: #505050;
+    color: #FF9500; 
+}
+
+.igual{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+
+.other{
+    color: turquoise;
+}
+
+.result{
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: 3em;
+}
+
