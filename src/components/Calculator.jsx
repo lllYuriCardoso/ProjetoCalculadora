@@ -58,18 +58,18 @@ export default function Calculator() {
       <Container maxWidth="xs">
         <div className="wrapper">
           <Box m={10} />
-          <h1 className="result">{num}</h1>
+          <h1 className="result" id="resultado">{num}</h1>
           <button className="C" onClick={clear}>
             C
           </button>
-          <button className="bu" onClick={inputNum} value={"( )"}>
-            ( )
+          <button className="bu" onClick={inputNum} value={"()"}>
+            <i className="fas fa-backspace"></i>
           </button>
           <button className="bu" onClick={porcentage}>
             %
           </button>
           <button className="bu" onClick={operatorHandler} value="/">
-            ÷
+            <i className="fas fa-divide"></i>
           </button>
           <button className="num" onClick={inputNum} value={9}>
             9
@@ -81,7 +81,7 @@ export default function Calculator() {
             7
           </button>
           <button className="bu" onClick={operatorHandler} value="x">
-            x
+         X
           </button>
           <button className="num" onClick={inputNum} value={6}>
             6
@@ -93,7 +93,7 @@ export default function Calculator() {
             4
           </button>
           <button className="bu" onClick={operatorHandler} value="-">
-            -
+            <i className="fas fa-minus"></i>
           </button>
           <button className="num" onClick={inputNum} value={3}>
             3
@@ -105,7 +105,7 @@ export default function Calculator() {
             1
           </button>
           <button className="bu" onClick={operatorHandler} value="+">
-            +
+            <i className="fas fa-plus"></i>
           </button>
           <button className="other" onClick={changeSign}>
             +/-
